@@ -21,7 +21,10 @@ h1 {
   right:0;
   width:30%;
   /*border: 1px thick black;*/
-  border: 1px thick black;
+  border: 1px solid black;
+  border-width: thick;
+  border-top: none;
+  border-right: none;
 }
 
 .pink {
@@ -39,9 +42,10 @@ h1 {
 
 
 section {
-  padding: 20px;
+  padding: 40px 20px 20px 20px;
   margin: 0px;
-  border: 1px thick black;
+  border: 1px solid black;
+  border-width: thick;
 }
 
 /********** Large devices only **********/
@@ -91,9 +95,11 @@ section {
   .dev-lg-4 {
 	float: left;
 	position: relative;
+	/*
 	border: 1px solid red;
 	background-color: grey;
-	
+	*/
+	background-color: grey;
   }
   .dev-lg-4 {
 	width: 33.33%;
@@ -146,7 +152,7 @@ section {
   .dev-md-1, .dev-md-2 {
 	float: left;
 	position: relative;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	background-color: grey;
   }
   .dev-md-2 {
@@ -162,7 +168,7 @@ section {
   .dev-sm-1{
 	float: left;
 	position: relative;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	background-color: grey;
   }
   .dev-sm-1 {
