@@ -6,16 +6,21 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
-  /*margin-bottom: 15px;*/
-  /*
-  width: 60%;
-  margin: auto;
-  */
   text-align: center
 }
 
-/* Simple Responsive Framework. */
+section {
+  padding: 40px 20px 20px 20px;
+  margin: 2% 2% 2% 2%;
+  border: 1px solid black;
+  border-width: thick;
+  float: left;
+  position: relative;
+  background-color: grey;
+}
+
 .row {
   width: 100%;
 }
@@ -45,16 +50,7 @@ h1 {
 }
 
 
-section {
-  padding: 40px 20px 20px 20px;
-  margin: 2% 2% 2% 2%;
-  border: 1px solid black;
-  border-width: thick;
-  float: left;
-  position: relative;
-  background-color: grey;
-}
-
+/* Simple Responsive Framework. */
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .dev-lg-4 {
